@@ -5,18 +5,18 @@
 // 선택 정렬과 시간 복잡도는 같으나, 루프마다 swapping을 해야 하므로 연산량이 더 많음!
 void bubbleSort(int nArr[])
 {
-	int nTemp;
+  int nTemp;
 
-	for (int i = 0; i < 10; ++i)
-	{
-		for (int j = 0; j < 9 - i; ++j)
-		{
-			if (nArr[j] > nArr[j + 1])
-			{
-				nTemp = nArr[j];
-				nArr[j] = nArr[j + 1];
-				nArr[j + 1] = nTemp;
-			}
-		}
-	}
+  for (int i = 0; i < 10; ++i)
+  {
+    for (int j = 0; j < 9 - i; ++j)
+    {
+      if (nArr[j] > nArr[j + 1])
+      {
+	nTemp = nArr[j];
+	nArr[j] = nArr[j + 1];
+	nArr[j + 1] = nTemp;
+       }
+     }
+   }
 }
