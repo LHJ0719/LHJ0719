@@ -1,4 +1,4 @@
 # LHJ0719
 Recording a study
 
-GitHub Start!!
+1. Selection Sort
